@@ -1,0 +1,32 @@
+# Project configuration
+project_id = "your-project-id"
+region     = "us-central1"
+zone       = "us-central1-a"
+
+# VM instance configuration
+instance_name = "dev-vm-001"
+machine_type = "n1-standard-1"
+
+# Network configuration
+network_name    = "default"
+subnetwork_name = "default"
+
+# Boot disk configuration
+boot_disk_image = "debian-cloud/debian-11"
+boot_disk_size  = 50
+boot_disk_type  = "pd-standard"
+
+# Service account configuration
+service_account_email = "" # Leave empty to use default compute service account
+
+# Tags and labels
+tags = [
+  "http-server",
+  "https-server"
+]
+
+labels = {
+  team        = "devops"
+  application = "example"
+  environment = "dev"
+}

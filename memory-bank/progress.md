@@ -5,6 +5,9 @@
    - ✅ Project brief established
    - ✅ Memory bank structure initialized
    - ✅ Core documentation created
+   - ✅ Infrastructure module structure created
+   - ✅ Development environment configuration set up
+   - ✅ GCloud SDK configured
 
 2. Documentation
    - ✅ Project overview and goals defined
@@ -15,7 +18,7 @@
 ## What's Left to Build
 
 ### Phase 1: Infrastructure Foundation
-- [ ] Initialize Terraform project structure
+- [ ] Initialize OpenTofu project structure
 - [ ] Set up Cloud Foundation Fabric integration
 - [ ] Create base GCP project configuration
 - [ ] Establish state management
@@ -99,6 +102,7 @@ pie title Monitoring Progress
    - Selected Cloud Foundation Fabric as base
    - Chose Ansible for configuration
    - Selected Stackdriver for monitoring
+   - Decided to use OpenTofu over Terraform due to BUSL license change
 
 ### Upcoming Decisions
 1. Infrastructure

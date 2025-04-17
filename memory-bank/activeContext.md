@@ -10,10 +10,14 @@
 - Established product context documentation
 - Defined system patterns and architecture
 - Documented technical context and requirements
+- Set up infrastructure module structure with compute-vm and network modules
+- Created development environment configuration
+- Decided to use OpenTofu instead of Terraform due to license changes
+- Configured GCloud SDK for GCP interaction
 
 ## Next Steps
 1. Infrastructure Setup
-   - Initialize Terraform configuration
+   - Initialize OpenTofu configuration
    - Set up Cloud Foundation Fabric integration
    - Create base GCP project structure
 
@@ -36,7 +40,8 @@
 
 ### Infrastructure
 - Using Cloud Foundation Fabric as the foundation for GCP setup
-- Implementing modular Terraform structure
+- Transitioning from Terraform to OpenTofu due to Terraform's license change to BUSL
+- Implementing modular OpenTofu structure
 - Following GCP best practices for resource organization
 
 ### Configuration
